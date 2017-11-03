@@ -46,5 +46,8 @@ public class Date {
         System.out.println(date);
         Date date1 = new Date(m,d,y);
         System.out.println(date.equals(date1));
+        Date date2 = new Date(1,1,2011);
+        date1 = date2;
+        System.out.println(date.equals(date1));
     }
 }
