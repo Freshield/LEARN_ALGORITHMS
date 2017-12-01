@@ -18,6 +18,6 @@ public class Counter {
 
     @Override
     public String toString() {
-        return id;
+        return id +" " + number;
     }
 }
