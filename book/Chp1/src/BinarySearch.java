@@ -30,13 +30,22 @@ public class BinarySearch {
         while (!StdIn.isEmpty()){
             System.out.println(StdIn.readInt());
         }
-        */
+
         int[] inputlist = In.readInts("tinyT.txt");
         int[] whitelist = In.readInts("tinyW.txt");
         Arrays.sort(whitelist);
         for (int i = 0; i < inputlist.length; i++) {
             int key = inputlist[i];
             if (rank(key,whitelist) < 0){
+                System.out.println(key);
+            }
+        }
+        */
+        int[] whiltelist = In.readInts(args[0]);
+        Arrays.sort(whiltelist);
+        while (!StdIn.isEmpty()){
+            int key = StdIn.readInt();
+            if (rank(key, whiltelist) < 0){
                 System.out.println(key);
             }
         }
