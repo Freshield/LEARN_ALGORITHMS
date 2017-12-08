@@ -28,7 +28,7 @@ public class math_static {
         System.out.println(abs(a));
         System.out.println(isPrime(6));
         System.out.println(sqrt(121));
-        
+
     }
 
 }
