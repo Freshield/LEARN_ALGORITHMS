@@ -34,6 +34,21 @@ public class array_test {
         for (int i = 0; i < a.length; i++) {
             System.out.println(a[i]);
         }
+
+        int[][] b = new int[3][3];
+        int num = 0;
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                b[i][j] = num;
+                num ++;
+            }
+        }
+
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.println(b[i][j]);
+            }
+        }
     }
 
 }
