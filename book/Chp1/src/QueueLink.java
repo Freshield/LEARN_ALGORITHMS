@@ -78,6 +78,7 @@ public class QueueLink<Item> implements Iterable<Item> {
 
         for (String n : s){
             System.out.println(n);
+            System.out.println("lol");
         }
 
     }
