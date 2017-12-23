@@ -1,4 +1,6 @@
-public class StackLink<Item>{
+import java.util.Iterator;
+
+public class StackLink<Item> implements Iterable<Item>{
 
     private Node first;
     private int N;
@@ -30,6 +32,26 @@ public class StackLink<Item>{
         return item;
     }
 
+
+    public Iterator<Item> iterator(){
+        return new ListIterator();
+    }
+
+    private class ListIterator implements Iterator<Item>{
+        private Node current = first;
+        public boolean hasNext(){
+            return current != null;
+        }
+        public void remove(){
+
+        }
+        public Item next(){
+            Item item = current.item;
+            current = current.next;
+            return item;
+        }
+    }
+
     public static void main(String[] args) {
         StackLink<String> s;
         s = new StackLink<String>();
@@ -44,6 +66,10 @@ public class StackLink<Item>{
         }
 
         System.out.println("(" + s.size() + " left on stack)");
+
+        for (String n : s){
+            System.out.println(n);
+        }
 
     }
 
