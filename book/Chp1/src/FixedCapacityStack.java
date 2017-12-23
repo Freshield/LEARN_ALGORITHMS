@@ -1,10 +1,11 @@
-public class FixedCapacityStackOfStrings {
+public class FixedCapacityStack<Item> {
 
-    private String[] a;
+
+    private Item[] a;
     private int N;
 
-    public FixedCapacityStackOfStrings(int cap){
-        a = new String[cap];
+    public FixedCapacityStack(int cap){
+        a = (Item[]) new Object[cap];
     }
 
     public boolean isEmpty(){
@@ -15,19 +16,19 @@ public class FixedCapacityStackOfStrings {
         return N;
     }
 
-    public void push(String item){
+    public void push(Item item){
         a[N] = item;
         N++;
     }
 
-    public String pop(){
+    public Item pop(){
         N--;
         return a[N];
     }
 
     public static void main(String[] args) {
-        FixedCapacityStackOfStrings s;
-        s = new FixedCapacityStackOfStrings(100);
+        FixedCapacityStack<String> s;
+        s = new FixedCapacityStack<String>(100);
         String input = "to be or not to - be - - that - - - is";
         String[] temps = input.split(" ");
         for (String temp : temps){
@@ -40,5 +41,6 @@ public class FixedCapacityStackOfStrings {
 
         System.out.println("(" + s.size() + " left on stack)");
     }
+
 
 }
