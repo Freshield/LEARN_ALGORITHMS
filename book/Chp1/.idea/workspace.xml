@@ -110,12 +110,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreeSum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThreeSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ThreeSum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="413">
               <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stopwatch.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Stopwatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding>
+                <element signature="e#79#80#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -197,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/StackLink.java" />
         <option value="$PROJECT_DIR$/src/QueueLink.java" />
         <option value="$PROJECT_DIR$/src/ThreeSum.java" />
+        <option value="$PROJECT_DIR$/src/Stopwatch.java" />
       </list>
     </option>
   </component>
@@ -260,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreeSum">
+  <component name="RunManager" selected="Application.Stopwatch">
     <configuration name="QueueLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="QueueLink" />
@@ -275,9 +289,9 @@
       <module name="Chp1" />
       <envs />
     </configuration>
-    <configuration name="ResizingArraystack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="StackLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ResizingArraystack" />
+      <option name="MAIN_CLASS_NAME" value="StackLink" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -289,9 +303,9 @@
       <module name="Chp1" />
       <envs />
     </configuration>
-    <configuration name="StackLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Stopwatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="StackLink" />
+      <option name="MAIN_CLASS_NAME" value="Stopwatch" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -413,19 +427,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ResizingArraystack" />
-      <item index="1" class="java.lang.String" itemvalue="Application.test_node" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StackLink" />
-      <item index="3" class="java.lang.String" itemvalue="Application.QueueLink" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ThreeSum" />
+      <item index="0" class="java.lang.String" itemvalue="Application.test_node" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StackLink" />
+      <item index="2" class="java.lang.String" itemvalue="Application.QueueLink" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ThreeSum" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Stopwatch" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ThreeSum" />
-        <item index="1" class="java.lang.String" itemvalue="Application.QueueLink" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StackLink" />
-        <item index="3" class="java.lang.String" itemvalue="Application.test_node" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ResizingArraystack" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Stopwatch" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ThreeSum" />
+        <item index="2" class="java.lang.String" itemvalue="Application.QueueLink" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StackLink" />
+        <item index="4" class="java.lang.String" itemvalue="Application.test_node" />
       </list>
     </recent_temporary>
   </component>
@@ -484,13 +498,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/array_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -890,6 +897,17 @@
         <state relative-caret-position="413">
           <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stopwatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#79#80#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
