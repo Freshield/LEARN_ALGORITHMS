@@ -46,6 +46,7 @@ public class WeightedQuickUnion {
             id[p] = root;
         }
         return root;
+        
     }
 
     public boolean connected(int p, int q){
