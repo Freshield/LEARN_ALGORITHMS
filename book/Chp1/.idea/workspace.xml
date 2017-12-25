@@ -31,19 +31,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ReadFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="42" column="39" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="42" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#383#391#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="QuickFind.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/QuickFind.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,15 +46,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickUnion.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuickUnion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/QuickUnion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+            <state relative-caret-position="768">
+              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding>
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeightedQuickUnion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/WeightedQuickUnion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+              <folding>
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#1117#1118#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tinyUF.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tinyUF.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,7 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/StdOut.java" />
         <option value="$PROJECT_DIR$/src/RandomSeq.java" />
         <option value="$PROJECT_DIR$/src/StdDraw.java" />
         <option value="$PROJECT_DIR$/src/test_draw.java" />
@@ -152,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/QuickFind.java" />
         <option value="$PROJECT_DIR$/src/QuickUnkion.java" />
         <option value="$PROJECT_DIR$/src/QuickUnion.java" />
+        <option value="$PROJECT_DIR$/src/WeightedQuickUnion.java" />
       </list>
     </option>
   </component>
@@ -215,21 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickUnion">
-    <configuration name="DoublingRatio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="DoublingRatio" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Chp1" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.WeightedQuickUnion">
     <configuration name="QuickFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="QuickFind" />
@@ -261,6 +261,20 @@
     <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ReadFile" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Chp1" />
+      <envs />
+    </configuration>
+    <configuration name="WeightedQuickUnion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="WeightedQuickUnion" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -368,19 +382,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DoublingRatio" />
-      <item index="1" class="java.lang.String" itemvalue="Application.test2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ReadFile" />
-      <item index="3" class="java.lang.String" itemvalue="Application.QuickFind" />
-      <item index="4" class="java.lang.String" itemvalue="Application.QuickUnion" />
+      <item index="0" class="java.lang.String" itemvalue="Application.test2" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ReadFile" />
+      <item index="2" class="java.lang.String" itemvalue="Application.QuickFind" />
+      <item index="3" class="java.lang.String" itemvalue="Application.QuickUnion" />
+      <item index="4" class="java.lang.String" itemvalue="Application.WeightedQuickUnion" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.QuickUnion" />
-        <item index="1" class="java.lang.String" itemvalue="Application.QuickFind" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ReadFile" />
-        <item index="3" class="java.lang.String" itemvalue="Application.test2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DoublingRatio" />
+        <item index="0" class="java.lang.String" itemvalue="Application.WeightedQuickUnion" />
+        <item index="1" class="java.lang.String" itemvalue="Application.QuickUnion" />
+        <item index="2" class="java.lang.String" itemvalue="Application.QuickFind" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ReadFile" />
+        <item index="4" class="java.lang.String" itemvalue="Application.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -439,13 +453,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/In.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -795,14 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tinyUF.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DoublingRatio.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -863,11 +862,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/QuickUnion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+        <state relative-caret-position="768">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tinyUF.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WeightedQuickUnion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+          <folding>
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
           </folding>
         </state>
       </provider>

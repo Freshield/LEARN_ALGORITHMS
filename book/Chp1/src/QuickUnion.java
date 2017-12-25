@@ -2,9 +2,11 @@ public class QuickUnion {
 
 
     private int[] id;
+    private int count;
 
     public QuickUnion(int num){
         id = new int[num];
+        count = num;
         for (int i = 0; i < id.length; i++) {
             id[i] = i;
         }
@@ -15,6 +17,10 @@ public class QuickUnion {
             System.out.print(id[i] + " ");
         }
         System.out.println();
+    }
+
+    public void showComponent(){
+        System.out.println(count + " components");
     }
 
     public int find(int p){
@@ -35,6 +41,7 @@ public class QuickUnion {
         if (pROOT == qROOT) return;
 
         id[pROOT] = qROOT;
+        count --;
     }
 
 
@@ -51,10 +58,11 @@ public class QuickUnion {
             String[] temp = order.split(" ");
             int p = Integer.parseInt(temp[0]);
             int q = Integer.parseInt(temp[1]);
-            
+
             qu.union(p, q);
         }
         qu.showId();
+        qu.showComponent();
 
     }
 
