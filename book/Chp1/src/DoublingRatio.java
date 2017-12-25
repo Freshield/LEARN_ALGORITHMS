@@ -21,6 +21,7 @@ public class DoublingRatio {
             StdOut.printf("%5.1f\n", time/prev);
             prev = time;
             N += N;
+            
         }
     }
 
