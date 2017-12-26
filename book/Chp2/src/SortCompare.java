@@ -25,8 +25,8 @@ public class SortCompare {
         String alg1 = "Insertion";
         String alg2 = "Bubble";
         String alg3 = "Selection";
-        int N = 10000;
-        int T = 100;
+        int N = 5000;
+        int T = 200;
         System.out.printf("For %d random Doubles\n", T);
         double t1 = timeRandomInput(alg1, N, T);
         System.out.printf("%s use %.2f seconds\n", alg1, t1);
