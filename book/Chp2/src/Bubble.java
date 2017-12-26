@@ -1,13 +1,11 @@
-public class Insertion {
+public class Bubble {
 
     public static void sort(Comparable[] a){
         int N = a.length;
-        for (int i = 1; i < N; i++) {
-            for (int j = i; j > 0; j--) {
-                if (less(a[j], a[j-1])){
-                    exch(a, j, j-1);
-                }else {
-                    break;
+        for (int i = 0; i < N - 1; i++) {
+            for (int j = 0; j < N - 1; j++) {
+                if (less(a[j+1], a[j])){
+                    exch(a,j,j+1);
                 }
             }
         }
@@ -17,13 +15,13 @@ public class Insertion {
         return v.compareTo(w) < 0;
     }
 
-    public static void exch(Comparable[] a, int i, int j){
+    private static void exch(Comparable[] a, int i, int j){
         Comparable t = a[i];
         a[i] = a[j];
         a[j] = t;
     }
 
-    public static void show(Comparable[] a){
+    private static void show(Comparable[] a){
         for (int i = 0; i < a.length; i++) {
             StdOut.print(a[i] + " ");
         }
