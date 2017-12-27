@@ -5,6 +5,7 @@ public class SortCompare {
         if (alg.equals("Insertion"))    Insertion.sort(a);
         else if (alg.equals("Bubble"))  Bubble.sort(a);
         else if (alg.equals("Selection"))   Selection.sort(a);
+        else if (alg.equals("Shell"))   Shell.sort(a);
         return timer.elapsedTime();
     }
 
@@ -23,9 +24,9 @@ public class SortCompare {
     public static void main(String[] args) {
 
         String alg1 = "Insertion";
-        String alg2 = "Bubble";
+        String alg2 = "Shell";
         String alg3 = "Selection";
-        int N = 5000;
+        int N = 10000;
         int T = 200;
         System.out.printf("For %d random Doubles\n", T);
         double t1 = timeRandomInput(alg1, N, T);
