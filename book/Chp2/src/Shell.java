@@ -46,11 +46,11 @@ public class Shell {
         String[] a = In.readStrings(filename);
         String temp = "s h e l l s o r t e x a m p l e";
         String[] b = temp.split(" ");
-        Integer[] c = {3,4,2,7,1,9,10,23,43,0,5,11};
-        show(b);
-        sort(b);
-        assert isSorted(b);
-        show(b);
+        Integer[] c = {3,4,2,7,1,9,10,23,43,0,5};
+        show(c);
+        sort(c);
+        assert isSorted(c);
+        show(c);
     }
 
 }
