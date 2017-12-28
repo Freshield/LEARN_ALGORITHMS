@@ -35,7 +35,7 @@ public class test_merge {
         show(test);
         int lo = 0;
         int hi = test.length - 1;
-        int mid = hi / 2;
+        int mid = lo + (hi - lo) / 2;
         merge(test, lo, mid, hi);
         show(test);
     }
