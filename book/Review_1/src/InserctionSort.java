@@ -37,12 +37,12 @@ public class InserctionSort {
     }
 
     public static void main(String[] args) {
-        //String filename = "words3.txt";
-        //String[] a = In.readStrings(filename);
+        String filename = "words3.txt";
+        String[] a = In.readStrings(filename);
         String[] b = {"s","o","r","t","e","x","a","m","p","l","e"};
-        sort(b);
-        assert isSorted(b);
-        show(b);
+        sort(a);
+        assert isSorted(a);
+        show(a);
     }
 
 }
