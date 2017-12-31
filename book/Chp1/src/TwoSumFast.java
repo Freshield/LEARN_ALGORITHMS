@@ -48,7 +48,7 @@ public class TwoSumFast {
     public static void main(String[] args) {
         String filename = "4Kints.txt";
         int[] a = In.readInts(filename);
-        System.out.println(count(a));
+        System.out.println(countFast(a));
     }
 
 }
