@@ -31,7 +31,7 @@ public class ThreeSum {
         String filename = "4Kints.txt";
         int[] a = In.readInts(filename);
         System.out.println(count(a));
-        
+
     }
 
 }
