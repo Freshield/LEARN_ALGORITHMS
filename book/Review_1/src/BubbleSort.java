@@ -3,9 +3,9 @@ public class BubbleSort {
 
     public static void sort(Comparable[] list){
         for (int i = 0; i < list.length - 1; i++) {
-            for (int j = list.length - 1; j > i; j--) {
-                if (less(list[j],list[j-1])){
-                    exch(j,j-1,list);
+            for (int j = 0; j < list.length - i - 1; j++) {
+                if (less(list[j+1],list[j])){
+                    exch(j,j+1,list);
                 }
             }
         }
