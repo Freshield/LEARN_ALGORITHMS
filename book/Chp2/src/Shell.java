@@ -7,8 +7,10 @@ public class Shell {
 
         while (h >= 1){
             for (int i = h; i < N; i++) {
-                for (int j = i; j >= h && less(a[j], a[j-h]); j -= h) {
-                    exch(a,j,j-h);
+                for (int j = i; j >= h; j -= h) {
+                    if (less(a[j], a[j-h])){
+                        exch(a,j,j-h);
+                    }
                 }
             }
             h /= 3;
